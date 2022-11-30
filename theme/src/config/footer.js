@@ -1,17 +1,17 @@
 export const footerSocials = [
   {
     name: 'Twitter',
-    url: 'https://twitter.com/littlesticksdev',
+    url: 'https://www.monash.edu/smart-manufacturing-hub',
     icon: "mdi:twitter",
   },
   {
     name: 'Youtube',
-    url: 'https://youtube.com/c/LittleSticks',
+    url: 'https://www.monash.edu/smart-manufacturing-hub',
     icon: "mdi:youtube",
   },
   {
     name: 'Github',
-    url: 'https://github.com/littlesticks',
+    url: 'https://www.monash.edu/smart-manufacturing-hub',
     icon: "mdi:github",
   },
   {
@@ -33,10 +33,10 @@ export const footerLists = [
 				title: 'Landing Page 2',
 				slug: '/landing-pages/landing-2',
 			},
-      // {
-			// 	title: 'Landing Page 3',
-			// 	slug: '/landing-pages/landing-3',
-			// },
+      {
+				title: 'Landing Page 3',
+				slug: '/landing-pages/landing-3',
+			},
 		],
 	},
 	{
