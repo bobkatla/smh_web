@@ -13,20 +13,20 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 					A developing space for data collection of Digital Twin
 				</p>
 				<div class="hero-btns__container">
-					<Button href="/theme/get-started" customIcon
-						>Get Started
+					<Button href="#current-work" customIcon
+						>Current works
             <Fragment slot="icon">
               <Icon name="ic:baseline-chevron-right"/>
             </Fragment>
             </Button>
-					<Button href="/theme/style-guide" unelevated>Style Guide</Button>
+					<Button href="#upcoming-work" unelevated>Upcoming works</Button>
 				</div>
         {settings.enableThemeSwitcher && <ThemeSwitcher client:load/>}
 		</div>
 		<div class="hero-section__image">
 				<picture>
 					<img
-						src="/assets/images/home/MSMH_high.png"
+						src="/assets/images/home/MSMH_square.png"
 						alt="Home page picture"
 						id="home-hero-image"
 					/>
@@ -65,6 +65,9 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
 		max-height: 80vh;
 		object-fit: cover;
 		border-radius: var(--theme-shape-radius);
+	}
+	html {
+		scroll-behavior: smooth;
 	}
 	@media (max-width: 768px) {
 		.hero-section__section {
