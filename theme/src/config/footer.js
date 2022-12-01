@@ -23,24 +23,28 @@ export const footerSocials = [
 
 export const footerLists = [
 	{
-		title: 'Landing Pages',
+		title: 'Current works',
 		items: [
 			{
-				title: 'Landing Page 1',
-				slug: '/landing-pages/landing-1',
+				title: 'Occupancy Sensors',
+				slug: '/prjs/occu',
 			},
 			{
-				title: 'Landing Page 2',
+				title: 'Environmental Sensors',
 				slug: '/landing-pages/landing-2',
 			},
-      {
-				title: 'Landing Page 3',
+      		{
+				title: 'People Counter',
+				slug: '/landing-pages/landing-3',
+			},
+			{
+				title: 'Skelete Cameras',
 				slug: '/landing-pages/landing-3',
 			},
 		],
 	},
 	{
-		title: 'Company',
+		title: 'MSMH teams',
 		items: [
 			{
 				title: 'About',
@@ -57,24 +61,16 @@ export const footerLists = [
 		],
 	},
 	{
-		title: 'Theme',
+		title: 'Future works',
 		items: [
 			{
-				title: 'Get Started',
-				slug: '/theme/get-started',
+				title: 'Future work 1',
+				slug: '/',
 			},
 			{
-				title: 'Style Guide',
-				slug: '/theme/style-guide',
+				title: 'Future work 2',
+				slug: '/',
 			},
-      {
-        title: 'Theme Setup',
-        slug: '/theme/theme-setup',
-      },
-      {
-        title: 'Customizing Odyssey',
-        slug: '/theme/customizing-odyssey',
-      }
 		],
 	},
 ];
