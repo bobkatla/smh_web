@@ -31,15 +31,11 @@ export const footerLists = [
 			},
 			{
 				title: 'Environmental Sensors',
-				slug: '/landing-pages/landing-2',
+				slug: '/prjs/env',
 			},
       		{
 				title: 'People Counter',
-				slug: '/landing-pages/landing-3',
-			},
-			{
-				title: 'Skelete Cameras',
-				slug: '/landing-pages/landing-3',
+				slug: '/prjs/ppcount',
 			},
 		],
 	},
@@ -50,10 +46,10 @@ export const footerLists = [
 				title: 'About',
 				slug: '/company/about',
 			},
-			{
-				title: 'Blog',
-				slug: '/blog',
-			},
+			// {
+			// 	title: 'Blog',
+			// 	slug: '/blog',
+			// },
 			{
 				title: 'Contact',
 				slug: '/company/contact',
@@ -64,12 +60,8 @@ export const footerLists = [
 		title: 'Future works',
 		items: [
 			{
-				title: 'Future work 1',
-				slug: '/',
-			},
-			{
-				title: 'Future work 2',
-				slug: '/',
+				title: 'Skeleton cameras',
+				slug: '/prjs/cam',
 			},
 		],
 	},

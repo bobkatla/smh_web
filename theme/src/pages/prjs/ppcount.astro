@@ -13,20 +13,20 @@ import Layout from '../../layouts/Page.astro';
 import TextAndImageHero from '../../components/sections/heros/TextAndImageHero.astro';
 
 const seo = {
-	title: 'Home page of SMH',
-	description: 'Home page of SMH',
+	title: 'People Counter',
+	description: 'Description of the work on People Counter',
 };
 ---
 
-<AnnouncementBar text="Go to the Monash website" href="https://www.monash.edu/smart-manufacturing-hub" slot="announcement-bar"/>
+<!-- <AnnouncementBar text="Go to the Monash website" href="https://www.monash.edu/smart-manufacturing-hub" slot="announcement-bar"/> -->
 <Layout seo={seo} >
 	<TextAndImageHero reversed>
 		<div slot="text-container">
-			<h1>Optimising the space usage</h1>
-			<p>XY Sense uses visual recognition to collect anonymous data of people</p>
+			<h1>Checking the number of people inside</h1>
+			<p>Counting number of people inside</p>
 		</div>
 		<div slot="btns-container">
-			<Button href="/theme/get-started" customIcon
+			<Button href="http://13.55.132.220:3000/public/dashboard/e1405dc7-3fa6-483b-a215-9541c15f2700" customIcon
 				>To the dashboard <Fragment slot="icon">
           <Icon name="ic:baseline-chevron-right"/>
         </Fragment></Button
@@ -34,8 +34,8 @@ const seo = {
 		</div>
 		<picture slot="image-container">
 			<img
-				src="/assets/images/smh_imgs/xysense.png"
-				alt="XY Sense"
+				src="/assets/images/smh_imgs/vemcount.png"
+				alt="PP counter"
 				id="home-hero-image"
 			/>
 		</picture>
