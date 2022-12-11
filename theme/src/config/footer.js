@@ -37,6 +37,10 @@ export const footerLists = [
 				title: 'People Counter',
 				slug: '/prjs/ppcount',
 			},
+			{
+				title: 'Skeleton cameras',
+				slug: '/prjs/cam',
+			},
 		],
 	},
 	{
@@ -59,10 +63,10 @@ export const footerLists = [
 	{
 		title: 'Future works',
 		items: [
-			{
-				title: 'Skeleton cameras',
-				slug: '/prjs/cam',
-			},
+			// {
+			// 	title: 'Skeleton cameras',
+			// 	slug: '/prjs/cam',
+			// },
 		],
 	},
 ];
